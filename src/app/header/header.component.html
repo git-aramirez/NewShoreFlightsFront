@@ -1,0 +1,8 @@
+
+<div class="body"fxLayout="row" fxLayoutAlign="center center" >
+    <input [formControl]="originInput" type="text" nz-input placeholder="Origin" maxlength="3" style="text-transform:uppercase;"/>
+    <br /><br />
+    <input [formControl]="destinationInput" type="text" nz-input placeholder="Destination" maxlength="3" style="text-transform:uppercase;"/>
+    <br /><br />
+    <button nz-button nzType="primary" (click)="search($event)">Search</button>
+ </div>
